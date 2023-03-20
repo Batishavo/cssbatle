@@ -1,0 +1,88 @@
+<div class="tip tip-1"></div>
+<div class="tip tip-2"></div>
+<div class="tip tip-3"></div>
+<div class="tip tip-4"></div>
+<div class="tip tip-5"></div>
+<div class="cemi-circule"></div>
+<div class="tip-back back-1"></div>
+<div class="tip-back back-2"></div>
+<div class="tip-back back-3"></div>
+<style>
+    :root {
+        --light-blue: #6592CF;
+        --dark-blue: #060F55;
+    }
+
+    body {
+        display: grid;
+        background: var(--light-blue);
+        grid-template-columns: 122px 20px 20px 20px 20px 20px 20px 20px;
+        grid-template-rows: 50px 1fr;
+    }
+
+    section {
+        display: grid;
+    }
+
+    .tip-back {
+        background: var(--light-blue);
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-top: 82px;
+        z-index: 5;
+        grid-row-start: 2;
+    }
+
+    .back-1 {
+        grid-column-start: 3;
+    }
+
+    .back-2 {
+        grid-column-start: 5;
+    }
+
+    .back-3 {
+        grid-column-start: 7;
+    }
+
+    .tip {
+        height: 110px;
+        width: 20px;
+        background: var(--dark-blue);
+        border-radius: 10px 10px 0 0;
+        margin-top: 42px;
+    }
+
+    .tip-1 {
+        grid-column-start: 2;
+    }
+
+    .tip-2 {
+        grid-column-start: 4;
+    }
+
+    .tip-3 {
+        grid-column-start: 6;
+    }
+
+    .tip-4 {
+        grid-column-start: 8;
+    }
+
+    .tip-5 {
+        margin-top: 150px;
+        grid-column-start: 5;
+        grid-row-start: 2;
+    }
+
+    .cemi-circule {
+        grid-row-start: 2;
+        grid-column-start: 2;
+        background: var(--dark-blue);
+        width: 140px;
+        height: 100px;
+        margin-top: 92px;
+        border-radius: 0 0 150px 150px
+    }
+</style>
