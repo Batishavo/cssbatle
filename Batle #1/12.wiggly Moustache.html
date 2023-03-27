@@ -1,0 +1,67 @@
+<div class="semi-circle p1"></div>
+<div class="semi-circle p2"></div>
+<div class="semi-circle p3"></div>
+<div class="circle s1"></div>
+<div class="circle s2"></div>
+<style>
+    :root {
+        --back-ground: #F5D6B4;
+        --mustache: #D86F45;
+    }
+
+    body {
+        background: var(--back-ground);
+    }
+
+    .circle {
+        background: var(--mustache);
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        position: absolute;
+    }
+
+    .s1 {
+        top: 140px;
+        left: 70px;
+    }
+
+    .s2 {
+        top: 140px;
+        left: 310px;
+    }
+
+    .semi-circle {
+        position: absolute;
+        width: 60px;
+        height: 30px;
+        border-radius: 0 0 50px 50px;
+        background-color: var(--back-ground);
+        border: 20px solid var(--mustache);
+        border-top: none;
+    }
+
+    .p1 {
+        top: 150px;
+        left: 70px;
+    }
+
+    .p2 {
+        top: 150px;
+        left: 230px;
+    }
+
+    .p3 {
+        transform: rotate(180deg);
+        top: 100px;
+        left: 150px;
+    }
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->

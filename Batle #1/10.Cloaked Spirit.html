@@ -1,0 +1,101 @@
+<div class="rec rec1"></div>
+<div class="rec rec2"></div>
+<div class="big circle p1">
+    <div></div>
+</div>
+<div class="big circle p2">
+    <div></div>
+</div>
+<div class="big circle p3">
+    <div></div>
+</div>
+<style>
+    :root {
+        --back-ground: #62306D;
+        --rec: #F7EC7D;
+        --circle-pink: #AA445F;
+        --circle-ligt-pink: #E38F66;
+    }
+
+    body {
+        background: var(--back-ground);
+    }
+
+    .big {
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .circle {
+        position: absolute;
+        border-radius: 50%;
+    }
+
+    .circle div {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .p1 {
+        background: var(--circle-pink);
+        top: 150px;
+        left: 50px;
+    }
+
+    .p1 div {
+        background: var(--circle-ligt-pink);
+    }
+
+    .p2 {
+        background: var(--circle-pink);
+        top: 150px;
+        left: 250px;
+    }
+
+    .p2 div {
+        background: var(--circle-ligt-pink);
+    }
+
+    .p3 {
+        background: var(--circle-ligt-pink);
+        top: 50px;
+        left: 150px;
+    }
+
+    .p3 div {
+        background: var(--circle-pink);
+    }
+
+    .rec {
+        background: var(--rec);
+        position: absolute;
+    }
+
+    .rec1 {
+        width: 300px;
+        height: 100px;
+        top: 200px;
+        left: 50px;
+    }
+
+    .rec2 {
+        width: 100px;
+        height: 195px;
+        top: 95px;
+        left: 150px;
+    }
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
